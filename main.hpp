@@ -17,14 +17,24 @@ void printStudent(Student *head);
 
 void makeStudent(Student *student)
 {
-    /*******************************
-     * Code your program here
-     *******************************/
+  ifstream ifs;
+  ifs.open("students.txt");
+  if(!ifs)
+  {
+    cerr << "Error: file open error" << endl;
+    exit(0);
+  }
+  for(int i=0; i<N; i++) {
+    ifs >> (student+ i)->id >> (student+i)->name >> (student+i)->major;
+  }
 }
+
 void printStudent(Student *student)
 {
+    for(int i=0; i<N; i++)
+    {
+        cout << (student+i)->id << " " << (student+i)->name << " " << (student+i)->major << endl;
+    }
+
     cout << endl;
-    /*******************************
-     * Code your program here
-     *******************************/
 }
