@@ -1,0 +1,77 @@
+<mxfile host="65bd71144e">
+    <diagram id="jUJqDbHM5WEOLiKSHO6v" name="Page-1">
+        <mxGraphModel dx="1763" dy="995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;fillColor=#0000CC;strokeColor=#00FF00;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0000CC;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="10" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;fillColor=#0000CC;strokeColor=#00FF00;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Declare student array&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#0000CC;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;fillColor=#0000CC;strokeColor=#00FF00;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Call 'makeStudent' function" style="whiteSpace=wrap;html=1;fillColor=#0000CC;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fillColor=#0000CC;strokeColor=#00FF00;" edge="1" parent="1" source="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="140" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fillColor=#0000CC;strokeColor=#00FF00;" edge="1" parent="1" source="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="290" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="open file and read file" style="whiteSpace=wrap;html=1;fillColor=#0000CC;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="290" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="edgeStyle=none;html=1;fillColor=#0000CC;strokeColor=#00FF00;" edge="1" parent="1" source="10" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Read date" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000CC;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="380" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#0000CC;strokeColor=#00FF00;" edge="1" parent="1" source="12" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="if any error encountered&amp;nbsp;&lt;br&gt;display error message" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000CC;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="380" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Exit program" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#0000CC;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="460" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="edgeStyle=none;html=1;fillColor=#0000CC;strokeColor=#00FF00;" edge="1" parent="1" source="15" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="close file when read successfully" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000CC;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="460" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="edgeStyle=none;html=1;fillColor=#0000CC;strokeColor=#00FF00;" edge="1" parent="1" source="17" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Call 'printStudent' function" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#0000CC;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="550" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="edgeStyle=none;html=1;fillColor=#0000CC;strokeColor=#00FF00;" edge="1" parent="1" source="19" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Print data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000CC;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="630" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="End" style="ellipse;whiteSpace=wrap;html=1;rounded=0;fillColor=#0000CC;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="760" width="80" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
